@@ -1,0 +1,4 @@
+from translate import Translator
+Translator = Translator(from_lang="english", to_lang="french")
+translation = Translator.translate("about")
+print(translation)
